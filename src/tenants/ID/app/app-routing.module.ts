@@ -5,6 +5,8 @@ import { ForEmployerComponent } from './for-employer/for-employer.component';
 import { ShowcaseComponent } from './showcase/showcase.component';
 import { ForJobseekerComponent } from './for-jobseeker/for-jobseeker.component';
 import { TalentBidComponent } from './talent-bid/talent-bid.component';
+import { SurveyEmployerComponent } from './survey-employer/survey-employer.component';
+import { SurveyTalentComponent } from './survey-talent/survey-talent.component';
 
 
 const routes: Routes = [{
@@ -24,6 +26,14 @@ const routes: Routes = [{
 {
   path: 'talent-bid',
   component: TalentBidComponent
+},
+{
+  path: 'employer-survey',
+  component: SurveyEmployerComponent
+},
+{
+  path: 'talent-survey',
+  component: SurveyTalentComponent
 }];
 
 @NgModule({

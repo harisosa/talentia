@@ -9,6 +9,8 @@ import { ForEmployerComponent } from './for-employer/for-employer.component';
 import { ShowcaseComponent } from './showcase/showcase.component';
 import { ForJobseekerComponent } from './for-jobseeker/for-jobseeker.component';
 import { TalentBidComponent } from './talent-bid/talent-bid.component';
+import { SurveyEmployerComponent } from './survey-employer/survey-employer.component';
+import { SurveyTalentComponent } from './survey-talent/survey-talent.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { TalentBidComponent } from './talent-bid/talent-bid.component';
     ForEmployerComponent,
     ShowcaseComponent,
     ForJobseekerComponent,
-    TalentBidComponent    
+    TalentBidComponent,
+    SurveyEmployerComponent,
+    SurveyTalentComponent    
   ],
   imports: [
     BrowserModule,
