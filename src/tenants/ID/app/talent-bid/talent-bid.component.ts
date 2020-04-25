@@ -14,7 +14,7 @@ export class TalentBidComponent implements OnInit {
   }
 
   ToTalentSurvey(e) {
-    e.prefentDefault();
+    e.preventDefault();
     this.router.navigate(['/talent-survey']);
   }
 }
