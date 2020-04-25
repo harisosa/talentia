@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router : Router) { }
 
   ngOnInit(): void {
   }
-
+  ToEN(){
+    let currentURL = window.location.href 
+    let idx = currentURL.indexOf("/id/")
+    let redirect = currentURL.substr(0,idx) +"/en/"
+    window.location.href =redirect
+  }
+  ToID(){
+    let currentURL = window.location.href 
+    let idx = currentURL.indexOf("/en/")
+    let redirect = currentURL.substr(0,idx) +"/id/"
+    window.location.href =redirect
+  }
 }

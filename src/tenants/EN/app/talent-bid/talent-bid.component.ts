@@ -13,7 +13,8 @@ export class TalentBidComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  ToTalentSurvey() {
+  ToTalentSurvey(e) {
+    e.preventDefault();
     this.router.navigate(['/talent-survey']);
   }
 }

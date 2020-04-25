@@ -13,7 +13,8 @@ export class ShowcaseComponent implements OnInit {
   ngOnInit(): void {
   }
   
-  ToEmployerSurvey() {
+  ToEmployerSurvey(e) {
+    e.preventDefault();
     this.router.navigate(['/employer-survey']);
   }
 
