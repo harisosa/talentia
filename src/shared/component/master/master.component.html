@@ -1,0 +1,5 @@
+<app-header></app-header>
+<div class="master-container" [ngClass]="{'container': !full, 'container-fluid':full }">
+    <ng-content select="content"></ng-content>
+</div>
+<app-footer></app-footer>
