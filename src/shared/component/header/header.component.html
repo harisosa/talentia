@@ -1,12 +1,20 @@
 <div>
     <div class="header-rect">
-        <div class="logo">
-           <a href="/" class="text-center"><img src="shared-assets/images/talentia-logo.png"/></a> 
+        <div class="row h-100 no-gutters">
+            <div class="col-sm-6">
+                <div class="logo">
+                    <a href="/" class="text-center"><img src="shared-assets/images/talentia-logo.png"/></a> 
+                 </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="lang pr-3">
+                    <a class="pr-1" (click)="ToID()">ID |</a>
+                    <a class="pr-1" (click)="ToEN()">EN</a>
+                    <i class="fas fa-globe"></i>
+                </div>
+            </div>
         </div>
-        <div class="lang">
-            <a class="pr-1" (click)="ToID()">ID |</a>
-            <a class="pr-1" (click)="ToEN()">EN</a>
-            <i class="fas fa-globe"></i>
-        </div>
+        
+
     </div>
 </div>
