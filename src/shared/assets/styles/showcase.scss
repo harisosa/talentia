@@ -77,3 +77,15 @@ border-radius: 30px;
     }
 }
 
+@media screen and (max-width: 575px){
+    .talent-card{
+        height: 33rem ;
+    }
+    .modal-dialog{
+        min-width: 10rem;
+    }
+    .modal-skill{
+        font-size: 1rem;
+    }
+}
+

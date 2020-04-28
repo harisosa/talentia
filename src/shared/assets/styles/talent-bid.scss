@@ -26,6 +26,9 @@
         font-weight: normal;
     }
 }
+.card-bid{
+    display: none;
+}
 /* modal */
 .modal-dialog{
     min-width: 50rem;
@@ -59,11 +62,47 @@ border-radius: 30px;
     .talent-card{
         height: 24rem;
     }
+    .card-bid{
+        display: none;
+    }
 }
+
 
 @media screen and (max-width: 770px){
     .talent-card{
         height: 36rem;
     }
+    .card-bid{
+        display: none;
+    }
 }
+
+@media screen and (max-width: 660px){
+    .talent-card{
+        height: 28rem;
+    }
+    .table-bid{
+        display: none;
+    }
+    .card-bid{
+        display: block;
+            height:100%;
+            width: 100%;
+            padding : 1rem;
+            .bid-list{
+                width: 100%;
+                height: 90%;
+                overflow-x: hidden;
+                overflow-y: auto;
+            }
+        }
+
+    
+}
+
+.h-10{
+    height:  10% !important;
+}
+
+
 

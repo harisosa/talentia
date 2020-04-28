@@ -5,8 +5,18 @@
     color: #0066FF;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width:1200px){
     .subtitle{
-        font-size:1rem;
+        line-height: 1.5rem;
     }
+}
+
+@media screen and (max-width: 640px){
+    .subtitle{
+        margin:1rem;
+    }
+   .action{
+       display: block;
+       width: 100%;
+   }
 }

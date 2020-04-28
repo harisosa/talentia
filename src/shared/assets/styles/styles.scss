@@ -42,3 +42,18 @@ body{
         font-size: 0.825rem
     }
 }
+
+
+@media screen and (max-width:400px){
+    .heading-1{
+        font-size: 2rem;
+            line-height: 1.75rem;
+    }
+    .heading-2{
+        font-size: 1.25rem;
+        line-height: 1.313rem;
+    }
+    .text-small{
+        font-size: 0.825rem
+    }
+}
