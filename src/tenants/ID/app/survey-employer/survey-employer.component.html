@@ -4,6 +4,10 @@
             <div class="row mb-3">
                 <div class="typeform"></div>
             </div>
+            <div class="row skip">
+                <span *ngIf="!skip" class="text-secondary">Skip after {{sec}} second </span>
+                <a><span *ngIf="skip" class="text-secondary" (click)="ToShowcase()">Skip</span></a>
+            </div>
         </div>
     </content>
 </app-master>

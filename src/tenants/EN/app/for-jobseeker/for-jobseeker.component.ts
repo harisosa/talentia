@@ -14,4 +14,8 @@ export class ForJobseekerComponent implements OnInit {
   ToTalentBid(){
     this.router.navigate(['/talent-bid']);
   }
+  ToSurvey(){
+    this.router.navigate(['/talent-survey']);
+    
+  }
 }

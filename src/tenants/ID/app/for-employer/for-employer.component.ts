@@ -12,6 +12,10 @@ export class ForEmployerComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  ToSurvey(){
+    this.router.navigate(['/employer-survey']);
+  }
+  
   ToShowcase(){
     this.router.navigate(['/showcase']);
   }

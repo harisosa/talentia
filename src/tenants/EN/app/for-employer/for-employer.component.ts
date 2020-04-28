@@ -15,4 +15,8 @@ export class ForEmployerComponent implements OnInit {
   ToShowcase(){
     this.router.navigate(['/showcase']);
   }
+  ToSurvey(){
+    this.router.navigate(['/employer-survey']);
+  }
+  
 }
