@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 export class SurveyEmployerComponent implements AfterViewInit {
 
   skip : boolean = false;
-  sec :number = 10;
+  sec :number = 5;
   constructor(private router: Router) { }
 
   ngAfterViewInit(): void {
@@ -25,7 +25,7 @@ export class SurveyEmployerComponent implements AfterViewInit {
         opacity: 75,
         buttonText: "Start survey!",
         onSubmit: function () {
-          ctrl.ToShowcase()
+          ctrl.ToForEmployer()
         }
       }
     )
@@ -42,8 +42,8 @@ export class SurveyEmployerComponent implements AfterViewInit {
       ctrl.sec -= 1;
     }, 1000);
   }
-  ToShowcase(){
-    this.router.navigate(['/showcase']);
+  ToForEmployer(){
+    this.router.navigate(['/for-employer']);
   }
 
 

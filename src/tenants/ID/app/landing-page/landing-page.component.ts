@@ -19,4 +19,12 @@ export class LandingPageComponent implements OnInit {
   ToJobSeeker(){
     this.router.navigate(['/for-jobseeker']);
   }
+  ToTalentSurvey(){
+    this.router.navigate(['/talent-survey']);
+    
+  }
+  
+  ToEmployerSurvey(){
+    this.router.navigate(['/employer-survey']);
+  }
 }
